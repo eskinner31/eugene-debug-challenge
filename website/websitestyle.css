@@ -1,0 +1,70 @@
+header {
+  text-align: center;
+  background-image: url("breakneckridge.png");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  }
+body{
+  background: rgba(60,60,60,1);
+  color: red;
+}
+h1{
+  margin: 0 auto;
+  padding: 100px;
+  font-size: 50px;
+}
+h2{
+  font-family: 'Audiowide', cursive;
+  font-size: 35px;
+  text-align: center;
+  color: gold;
+}
+img {
+  float: right;
+  height: 300px;
+  width:  300px;
+  margin: 0 auto;
+}
+p {
+  font-size: 20px;
+  text-align: center;
+}
+iframe{
+  float: right;
+  overflow: scroll;
+  border: none;
+}
+/*Begin class css*/
+.container{
+  margin: 0 auto;
+  max-width: 700px;
+}
+.minicontainer {
+  border-top-style: groove;
+  border-bottom-style: groove;
+  border-color: red;
+  height: 300px;
+  margin: 0 auto;
+  max-width: 700px;
+}
+.minicontainer>p{
+  width: 400px;
+  font-family: 'Audiowide', cursive;
+  font-size: 30px;
+  vertical-align: center;
+  float: left;
+}
+.clearfix{
+  clear: both;
+}
+
+.pagenav {
+  list-style-type: none;
+  text-align: center;
+  padding: 25px;
+  font-size: 25px;
+}
+.navlinks{
+  display: inline;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Eugene's Goals</title>
+    <link rel="stylesheet" type="text/css" href="websitestyle.css">
+    <link href='http://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>The Future</h1>
+    <!--Links between the Webpage 1 & 2 -->
+      <ul class="pagenav">
+  	     <li class="navlinks"><a href="index.html">About Me</a></li>
+  	     <li class="navlinks"><a href="goals.html">The Future</a></li>
+      </ul>
+    </header>
+
+    <!--Goals at gSchool-->
+
+    <div class="container">
+      <h2>My Goals at gSchool</h2>
+      <p>I hope that after completing the full stack course at gSchool
+         I will be able to find a job with one of the many tech companies
+         in Colorado. I would either like to do web development for
+         sports/adventure/travel companies, or continue education towards
+         big data. Either way, I'm really excited to get back into the
+         coding world after so long.</p>
+      <br/>
+
+    <!--Buttons & Image for Jquery-->
+
+      <p>And Now... Some jquery to show how excited I am to be starting the course</p>
+      <button id="show">Do You Even Code?</button>
+      <button id="hide">Turn It Down.</button>
+
+     <div class="jtest">
+       <img src="egoraptorpikachu.gif" alt="EgoRaptor Pikachu">
+     </div>
+    </div>
+
+  <!--jquery functions to hide and show the gif-->
+
+  <script>
+    $("#hide").on("click", function(){
+      $(".jtest").hide(".jtest");
+    });
+
+    $("#show").on("click", function(){
+      $(".jtest").show(".jtest");
+    });
+  </script>
+</body>
+</html>
